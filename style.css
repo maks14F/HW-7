@@ -1,12 +1,11 @@
-ul a[href^="https"] {
+ul.list li:nth-child(3) a{
     color: red;
 }
 
-/* li a[href^="https"] {
+.list a[href^="https://www.youtube.com/"] {
     color: red;
-} */
+}
 
 ul + p {
     font-size: 24px
 }
-
